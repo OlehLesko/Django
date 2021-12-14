@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid-19</title>
+    <link  type="text/css" href="{% static 'main/css/Style_Main_window.css' %}" rel="stylesheet">
+</head>
+
+<body id="body" style="background-image:
+url('{% static 'main/images/Virus_Main.png' %}')">
+
+<!--<img src="'{% static 'main/images/Virus_Main.png' %}'">-->
+    <!--Buttons-->
+    <div class="buttons">
+
+        <a href="https://liki24.com/uk/" class="
+        butt_pharmacy">
+            Online Pharmacy</a>
+
+        <!--Buttons_Country-->
+        <a href="{% url 'Europe' %}" class="butt_Europe"
+                    type="button">
+            Europe</a>
+
+        <a href="#" class="butt_Ukraine"
+                    type="button">
+            Ukraine</a>
+
+        <a href="#" class="butt_Asia"
+                    type="button">
+            Asia</a>
+    </div>
+
+
+    <!--Texts-->
+    <h1 class="number_MOZ">Contact center of the MOZ:<br>
+        0 800 60 20 19</h1>
+
+    <h1 class="txt_covid-19">Covid-19</h1>
+
+    <h1 class="find_data">Find out the information:</h1>
+
+
+
+</body>
+</html>
