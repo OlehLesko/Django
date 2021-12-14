@@ -13,14 +13,15 @@
 
 <body style="
     background-image: url('{% static 'main/images/Virus_E_U_A.png' %}')
-">
+" onload="myFunction()">
+
     <h1 class="info_of_asia">
         The state of<br>
         covid-19 in Asia
     </h1>
 
 
-    <textarea class="text_field"></textarea>
+    <textarea class="text_field" id="text_field"></textarea>
 
     <div class="buttons">
 
@@ -30,5 +31,6 @@
 
     </div>
 
+    <script src="{% static 'main/js/script_Asia_window.js' %}"></script>
 </body>
 </html>

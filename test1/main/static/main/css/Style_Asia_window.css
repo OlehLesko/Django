@@ -9,6 +9,7 @@
 
 .text_field {
     position: fixed;
+    background: #d7d5d8;
     top: 15%;
     width : 600px;
     height: 440px;
