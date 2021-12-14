@@ -1,13 +1,42 @@
 <!doctype html>
+{% load static %}
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Covid-19</title>
+    <link  type="text/css" href="{% static 'main/css/Style_Europe_window.css' %}" rel="stylesheet">
 </head>
-<body>
-    <h1>Інформація по Європі</h1>
+
+<body style="
+    background-image: url('{% static 'main/images/Virus_E_U_A.png' %}')
+">
+    <h1 class="select_country">
+        Select a country:</h1>
+
+    <form>
+        <select class="choose_country">
+            <option>Choose country</option>
+            <option>Germany</option>
+            <option>France</option>
+            <option>Poland</option>
+            <option>Belgium</option>
+        </select>
+    </form>
+
+
+    <textarea class="text_field"></textarea>
+
+    <div class="buttons">
+
+        <a href="#" class="
+        butt_home">
+            Home</a>
+
+    </div>
+
 </body>
 </html>
