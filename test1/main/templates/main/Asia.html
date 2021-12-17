@@ -1,36 +1,10 @@
-<!doctype html>
-{% load static %}
-<html lang="en">
+{% extends 'main/base.html' %}
+{% block title %}
+Asia
+{% endblock %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Covid-19</title>
-    <link  type="text/css" href="{% static 'main/css/Style_Asia_window.css' %}" rel="stylesheet">
-</head>
-
-<body style="
-    background-image: url('{% static 'main/images/Virus_E_U_A.png' %}')
-" onload="myFunction()">
-
-    <h1 class="info_of_asia">
-        The state of<br>
-        covid-19 in Asia
-    </h1>
-
-
-    <textarea class="text_field" id="text_field"></textarea>
-
-    <div class="buttons">
-
-        <a href="#" class="
-        butt_home">
-            Home</a>
-
-    </div>
-
-    <script src="{% static 'main/js/script_Asia_window.js' %}"></script>
-</body>
-</html>
+{% block body %}
+        {% for element in result %}
+        {{ element }}
+        {% endfor %}
+{% endblock %}

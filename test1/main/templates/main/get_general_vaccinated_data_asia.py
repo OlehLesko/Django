@@ -1,5 +1,5 @@
-import config_file
-from request_module import request
+from main.templates.main import config_file
+from main.templates.main.request_module import request
 import awoc  # import library of countries
 import urllib.request, json
 
