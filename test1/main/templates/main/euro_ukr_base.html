@@ -19,12 +19,12 @@
         Select a country:</h1>
 
     <form>
-        <select class="choose_country" onclick="myFunction()">
-            <option>Choose country</option>
-            <option>Germany</option>
-            <option>France</option>
-            <option>Poland</option>
-            <option>Belgium</option>
+        <select class="choose_country" id="choose_country" onclick="myFunction()">
+            <option value="Choose country">Choose country</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Poland">Poland</option>
+            <option value="Belgium">Belgium</option>
         </select>
     </form>
 
@@ -33,8 +33,8 @@
 
 <div class="buttons">
 
-    <a href="{% url 'index' %}" class="
-        butt_home">
+    <a  href="{% url 'index' %}"
+        class="butt_home" >
         Home</a>
 
 </div>
