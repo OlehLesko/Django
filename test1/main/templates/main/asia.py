@@ -26,7 +26,7 @@ def asia_function():
 
     # for key,value in dict.items():
     #     print(key, value)
-    with open("file.json", "w") as out:
+    with open("Asia_file.json", "w") as out:
         # out = json.dumps(dict)
         out.write(json.dumps(dict))
 
