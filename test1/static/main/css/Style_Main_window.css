@@ -1,0 +1,146 @@
+
+.main_window {
+    background: url('/static/images/Virus_Main.png')
+    background-repeat: no-repeat;
+}
+
+/* Buttons */
+.butt_pharmacy {
+    position: relative;
+    top: 10%;
+    left: 55%;
+    color : black;
+    text-decoration: none;
+    font-size : 30px;
+}
+
+
+/* Button Europe */
+.butt_Europe {
+    position: fixed;
+    left: 6%;
+    top: 70%;
+    border: 0;
+    line-height: 3.5;
+    padding: 0;
+    font-size: 1.25rem;
+    width : 170px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #1E90FF;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.butt_Europe:hover {
+    background-color: rgba(55, 0, 255);
+}
+
+.butt_Europe:active {
+    box-shadow: inset -2px -2px 3px rgba(0, 0, 0, .6),
+                inset 2px 50px 3px rgba(0, 0, 0, .6);
+}
+
+
+/* Button Ukraine */
+.butt_Ukraine {
+    position: fixed;
+    left: 20%;
+    top: 70%;
+    border: 0;
+    line-height: 3.5;
+    padding: 0 ;
+    font-size: 1.25rem;
+    width : 170px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #1E90FF;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.butt_Ukraine:hover {
+    background-color: rgba(55, 0, 255);
+}
+
+.butt_Ukraine:active {
+    box-shadow: inset -2px -2px 3px rgba(0, 0, 0, .6),
+                inset 2px 50px 3px rgba(0, 0, 0, .6);
+}
+
+
+/* Button Asia */
+.butt_Asia {
+    position: fixed;
+    left: 34%;
+    top: 70%;
+    border: 0;
+    line-height: 3.5;
+    padding: 0;
+    font-size: 1.25rem;
+    width : 170px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 1px #1E90FF;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.butt_Asia:hover {
+    background-color: rgba(55, 0, 255);
+}
+
+.butt_Asia:active {
+    box-shadow: inset -2px -2px 3px rgba(0, 0, 0, .6),
+                inset 2px 50px 3px rgba(0, 0, 0, .6);
+}
+
+
+/* Texts */
+.number_MOZ {
+    position: fixed;
+    top: -2.5%;
+    left: 75%;
+    color : black;
+    text-decoration: none;
+    font-size : 30px;
+}
+
+.txt_covid-19 {
+    position: fixed;
+    top: 14%;
+    left: 3%;
+    color : black;
+    text-decoration: none;
+    font-size : 125px;
+}
+
+.find_data {
+    position: fixed;
+    top: 44%;
+    left: 3%;
+    color : black;
+    text-decoration: none;
+    font-size : 52px;
+}
