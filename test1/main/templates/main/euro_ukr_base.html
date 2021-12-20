@@ -15,12 +15,12 @@
 
 <body style="
     background-image: url('{% static 'main/images/Virus_E_U_A.png' %}')
-" >
+" onload="myFunction()">
     <h1 class="select_country">
         Select a country:</h1>
 
     <form>
-        <select class="choose_country">
+        <select class="choose_country" onclick="myFunction()">
             <option>Choose country</option>
             <option>Germany</option>
             <option>France</option>
