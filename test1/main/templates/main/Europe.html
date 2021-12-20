@@ -1,47 +1,10 @@
-<!doctype html>
-{% load static %}
-<html lang="en">
+{% extends 'main/euro_ukr_base.html' %}
+{% block title %}
+Europe
+{% endblock %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Covid-19</title>
-    <link  type="text/css" href="{% static 'main/css/Style_Europe_window.css' %}" rel="stylesheet">
-
-
-</head>
-
-<body style="
-    background-image: url('{% static 'main/images/Virus_E_U_A.png' %}')
-" >
-    <h1 class="select_country">
-        Select a country:</h1>
-
-    <form>
-        <select class="choose_country">
-            <option>Choose country</option>
-            <option>Germany</option>
-            <option>France</option>
-            <option>Poland</option>
-            <option>Belgium</option>
-        </select>
-    </form>
-
-
-    <textarea class="text_field" id="text_field"></textarea>
-
-    <div class="buttons">
-
-        <a href="#" class="
-        butt_home" onclick="myFunction()">
-            Home</a>
-
-    </div>
-
-
-    <script src="{% static 'main/js/script_Europe_window.js' %}"></script>
-
-</body>
-</html>
+{% block body %}
+        {% for element in result %}
+        {{ element }}
+        {% endfor %}
+{% endblock %}

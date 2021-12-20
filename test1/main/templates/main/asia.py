@@ -3,6 +3,7 @@ from request_module import request
 from get_general_vaccinated_data_asia import total_vaccinated
 import json
 
+
 def asia_function():
     headers = headers_asia
     html = request(url_asia, headers)
@@ -22,8 +23,6 @@ def asia_function():
     dict['Recovered'] = recovered
     dict['Now ill'] = now_ill
     dict['Total vaccinated people'] = total_vaccinated_people
-
-
 
     # for key,value in dict.items():
     #     print(key, value)
